@@ -1,1 +1,2 @@
-# test-site-html-css-js
+# Compilation of Test WebPages
+Made with html, css and js.
