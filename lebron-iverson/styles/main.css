@@ -1,0 +1,46 @@
+body{
+	background:gray;
+	font-family: sans-serif;
+}
+
+a{
+	font-size: 17px;
+	color:black;
+	opacity: 50%;
+}
+
+p{
+	padding: 10px;
+	color: white;
+	background: #173f5f;
+	text-align: center;
+}
+
+img{
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	text-align: right;
+}
+
+li{
+	display: inline-block;
+}
+
+.centralizeImg{
+	max-width: 60%;
+}
+
+.grayFont{
+	color:gray;
+}
+
+footer{
+	text-align: center;
+	background: #264653;
+	padding:20px;
+}
+
+
