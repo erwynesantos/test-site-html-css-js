@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica;
+    background-color: whitesmoke;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #2C3E50,#000000);
+}
+
+.navbar li a{
+    color: white !important;
+    font-weight: 450;
+    float: right;
+    text-align: left;
+    margin-right: 12px;
+}
+
+.navbar-brand{
+    font-family: Helvetica;
+    color: white !important;
+    padding-left: 20px;
+}
+
+.fa-bars{
+    color:white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/**** banner section ****/
+#banner{
+    background-image: linear-gradient(to right, #2C3E50,#000000);
+    color: white;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+/*---- Skills Section --------*/
+
+#skills{
+    padding: 80px 0; /* 80px-top-bottom, 0p-left-right */
+}
+
+.skills-img{
+    width: 20vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+.flex-infrastructure{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 b{
+    color: black;
+    border-right: 2px solid red;
+}
+
+.flex-devops{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-languages{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .header1{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+/*--------- Social Media Section --------------*/
+#social-media{
+    background: white;
+    padding: 100px 0;
+}
+
+#social-media p{
+    font-size: 30px;
+    font-weight: 450;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.social-icons img{
+    width: 70px;
+    padding: 10px;
+    transition: 0.5s;
+}
+ 
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*------------------ Footer Section--------------------*/
+#footer{
+    background-image: linear-gradient(to right, #2C3E50,#000000);
+    color: white;
+}
+
+.footer-box{
+    padding: 20px;
+}
+
+hr{
+    background-color: white;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+
+
+
