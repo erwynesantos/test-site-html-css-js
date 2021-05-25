@@ -30,11 +30,11 @@ html{
     margin-right: 12px;
 }
 
-.navbar-brand{
+/*.navbar-brand{
     font-family: Helvetica;
     color: white !important;
     padding-left: 20px;
-}
+}*/
 
 .fa-bars{
     color:white;
@@ -56,6 +56,20 @@ html{
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
+}
+
+.promo-info{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    height: 160px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 /*---- Skills Section --------*/
@@ -115,6 +129,12 @@ h2 b{
     .flex-container {
       flex-direction: column;
     }
+
+    /* hide the .banner img when in mobile view */
+    .banner img{ 
+        display: none;
+    }
+
   }
 
 /*--------- Social Media Section --------------*/
@@ -124,9 +144,9 @@ h2 b{
 }
 
 #social-media p{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 450;
-    font-family: sans-serif;
+    font-family: Helvetica;
     margin-bottom: 10px;
 }
 .social-icons img{
